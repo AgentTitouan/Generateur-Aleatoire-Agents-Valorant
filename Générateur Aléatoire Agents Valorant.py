@@ -14,7 +14,7 @@ fenetre.title("Générateur aléatoire d'agents VALORANT")
 cadre_question = tk.Frame(fenetre)
 cadre_question.pack(pady=10)
 
-question = tk.Label(cadre_question, text="Combien d'agents VALORANT avez-vous ? : ")
+question = tk.Label(cadre_question, text="Combien d'agents VALORANT avez-vous ?")
 question.pack(side=tk.LEFT)
 
 entree_agents = tk.Entry(cadre_question)
